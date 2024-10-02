@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinsta_diagram=self.webpackChunkinsta_diagram||[]).push([[71],{6071:(e,a,r)=>{r.d(a,{createArchitectureServices:()=>s.S});var s=r(6677);r(6660)}}]);
