@@ -10,5 +10,16 @@ Enhancing an existing image.
 
 We plan to generate the mermaid code using a LLM via a prompt.
 
-Example how to run the python code to generate an image from the given mermaid code - 
-command=>python .\render_mermiad.py --code "graph LR; A-->B; B-->C;" --output diagram.png
+Link to our hosted app (POC) - https://instadiagram-pilot.azurewebsites.net/
+
+Input - Give an input query and it will generate a flowchart for you.
+
+To edit the diagram - 
+1. Open draw.io 
+2. Create a New Diagram
+3. Create a blank diagram
+4. On the draw io pane - There is a plus option (Description - Insert (Double Click to insert text))
+5. In the dropdown select Advanced->Mermaid.
+6. Copy the mermaid code from the instadiagram-pilot app.
+7. Insert the mermaid code.
+8. It will create the flowchart and now this can be edited.
